@@ -1,0 +1,30 @@
+{
+  "name": "toy-problems-ts",
+  "version": "1.0.0",
+  "description": "Toy Problems Practice in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",   
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/velouriagreen/toy-problems-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/velouriagreen/toy-problems-ts/issues"
+  },
+  "homepage": "https://github.com/velouriagreen/toy-problems-ts#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.9.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  }
+}
